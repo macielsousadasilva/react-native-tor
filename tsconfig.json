@@ -29,7 +29,10 @@
     "target": "esnext"
   },
   "include": [
-    "src/index"
+    "src/**/*"
   ],
+  "paths": {
+    "react-native-tor": ["./src/index"]
+  },
   "exclude": ["node_modules", "lib", "example"]
 }
