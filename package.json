@@ -1,6 +1,6 @@
 {
   "name": "react-native-tor",
-  "version": "0.1.8",
+  "version": "fix-0.1.8",
   "description": "Tor for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
