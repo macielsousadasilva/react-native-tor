@@ -29,7 +29,7 @@
     "target": "esnext"
   },
   "include": [
-    "src/**/*"
+    "src/index"
   ],
   "exclude": ["node_modules", "lib", "example"]
 }
