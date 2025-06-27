@@ -4,7 +4,6 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "declarationMap": true,
-    "emitDeclarationOnly": true,
     "outDir": "lib/typescript",
     "paths": {
       "react-native-tor": ["./src/index"]
@@ -29,6 +28,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "include": ["src"],
   "exclude": ["node_modules", "lib", "example"]
 }
