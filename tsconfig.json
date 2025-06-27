@@ -28,5 +28,8 @@
     "strict": true,
     "target": "esnext"
   },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": ["node_modules", "lib", "example"]
 }
