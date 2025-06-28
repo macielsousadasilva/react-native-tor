@@ -1,13 +1,17 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "lib/typescript",
     "paths": {
       "react-native-tor": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
-    "importsNotUsedAsValues": "error",
+    "verbatimModuleSyntax": false,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",
     "lib": ["esnext"],
@@ -23,5 +27,12 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "esnext"
-  }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "paths": {
+    "react-native-tor": ["./src/index"]
+  },
+  "exclude": ["node_modules", "lib", "example"]
 }

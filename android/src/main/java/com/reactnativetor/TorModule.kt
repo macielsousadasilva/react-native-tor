@@ -151,7 +151,9 @@ class TorModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaMod
       return;
     }
 
-    val param = TaskParam(method, url, jsonBody, headers.toHashMap())
+    // val param = TaskParam(method, url, jsonBody, headers.toHashMap())
+    val param = TaskParam(method, url, jsonBody, headers.toHashMap() as HashMap<String, Any>)
+
     executorService.execute {
       try {
         val task = TorBridgeRequest(promise, _client!!, param);
